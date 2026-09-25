@@ -1,34 +1,23 @@
-# StackSleuth
+## Planned 1.0 features
 
-A Dalamud plugin for FFXIV that helps you find and consolidate duplicate item stacks across your inventory, retainers and chocobo saddlebag.
+- Create checklists for items you want to collect.
+- Set a target quantity for each item and see your progress (for example, 73/100 totems).
+- Get a notification when you reach a target.
+- Add a “Track Gatherable Materials” button to the crafting menu that creates a checklist for the selected recipe.
+- Show how many of each tracked material you have and how many you still need.
+- Save checklists and progress between game sessions.
+- Track items across your inventory, retainers, and chocobo saddlebag.
+          - Retainer counts may only update after you open each retainer. We’ll make that clear in the checklist.
+  
+  ## Future features
 
-## Planned features for 1.0
+- Optionally notify you when you pick up an item that you already have in a retainer or your chocobo saddlebag.
+- Optionally show where your other stacks are when you hover over an item.
+- Track materials for multiple crafts at once. (first prio)
+- Add more ways to create and manage checklists.
 
-- Detect duplicate stacks across supported storage locations
-- Show which stacks can be combined
-- Show how many inventory slots could be freed
-- Display a quick location summary, for example:
-  - Inventory: 8
-  - Retainer Steve: 42
-  - Saddlebag: 15
-- Notify you when an obtained item already exists elsewhere
-- Keep a list of recently detected duplicate items
-- Show item quantities and storage locations when hovering over an item
-- Keep inventory data completely separate between characters
-- Cache retainer inventories with last-scanned timestamps
-- Ignore intentionally separated items
-- Set a minimum quantity before warnings appear
-- Toggle notifications, tooltips and other features individually
-- Mute notifications for selected items without hiding them from consolidation results
-## Future plans
+## Notes
 
-- Filter consolidation results by item category or storage location
-- Sort results by potential inventory slots saved
-- Create custom notification rules for specific items or categories
-- Add a context-menu option to locate every stack of an item
-- Search duplicate stacks across multiple characters while keeping their data clearly separated
-- Add a guided cleanup view for working through consolidation suggestions
+This project is in early development, so the features and release plan may change.
 
-## Status
-
-StackSleuth is currently in the planning and early development stage.
+Retainer contents may need to be refreshed by opening each retainer in game. The checklist should show when its retainer information was last updated.
