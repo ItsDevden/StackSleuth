@@ -6,6 +6,7 @@
 - Add a “Track Gatherable Materials” button to the crafting menu that creates a checklist for the selected recipe.
 - Show how many of each tracked material you have and how many you still need.
 - Save checklists and progress between game sessions.
+- Notify you when your Allagan tomestones or bicolor gemstones reach their cap, so you know it’s time to spend them.
 - Track items across your inventory, retainers, and chocobo saddlebag.
           - Retainer counts may only update after you open each retainer. We’ll make that clear in the checklist.
   
